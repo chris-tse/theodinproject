@@ -1,0 +1,40 @@
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a.control {
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	background: #337ab7;
+	margin-top: 30px;
+	font-family: arial, sans-serif;
+}
+
+#slider {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#slider > img {
+	width: 600px;
+	height: 400px;
+	float: left;
+	display: none;
+}
